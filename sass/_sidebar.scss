@@ -1,0 +1,68 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 869px;
+    background-color: $--color-white;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+
+    &__paragraph {
+        padding-top: 5.1rem;
+        font-size: 1rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #9fa7bb;
+        padding-left: 2.6rem;
+        padding-bottom: 0.9rem;
+    }
+}
+
+/////////////////////////////////////////////
+// SIDE NAVIGATION
+
+.side-nav {
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    list-style: none;
+
+    &__item {
+        display: flex;
+        width: 320px;
+        height: 40px;
+        margin-bottom: 0.25rem;
+        padding-left: 13px;
+
+        // &:not(:last-child) {
+        //     margin-bottom: 0.5rem;
+        // }
+    }
+
+    &__item:hover {
+        width: 300px;
+        height: 40px;
+        border-radius: 8px;
+        background-color: #f1f4f8;
+    }
+
+    &__item--active {
+        width: 300px;
+        height: 40px;
+        border-radius: 8px;
+        background-color: #f1f4f8;
+    }
+
+    &__link {
+        color: $--color-font;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+    }
+
+    &__icon {
+        margin-right: 1.6rem;
+        &--active {
+            filter: invert(41%) sepia(71%) saturate(2070%) hue-rotate(206deg) brightness(98%) contrast(107%);
+        }
+    }
+}

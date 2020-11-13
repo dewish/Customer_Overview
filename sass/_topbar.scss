@@ -1,0 +1,13 @@
+.topbar {
+    display: flex;
+    background-color: $--color-white;
+    height: 44px;
+    align-items: center;
+    
+    &__paragraph {
+        color: $--color-font;
+        font-size: 1.3rem;
+        line-height: 2.1rem;
+        margin-left: 1.8rem;
+    }
+}

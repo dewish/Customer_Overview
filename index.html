@@ -1,14 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
     <title>Customer Overview</title>
 </head>
-<body>
-    
+
+<body class="container">
+
+    <section class="topbar">
+        <p class="topbar__paragraph">Site Admin</p>
+    </section>
+
+    <div class="content">
+        <nav class="sidebar">
+            <p class="sidebar__paragraph">Site Admnin</p>
+            <div>
+                <ul class="side-nav">
+                    <li class="side-nav__item side-nav__item--active">
+                        <a href="#" class="side-nav__link">
+                            <img src="/images/online.png" class="side-nav__icon side-nav__icon--active">
+                            <span>Customer Overview</span>
+                        </a>
+                    </li>
+
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <img src="/images/list-dot.png" class="side-nav__icon">
+                            <span>Reports</span>
+                        </a>
+                    </li>
+
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <img src="/images/file-add.png" class="side-nav__icon">
+                            <span>File transcodings</span>
+                        </a>
+                    </li>
+
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <img src="/images/notification.png" class="side-nav__icon">
+                            <span>Notifiaction Center</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="right_content">
+            <div>
+                <div class="right_content__add">
+                    <h1 class="right_content__heading">Customer Overview</h1>
+                    <button class="Button_add"><span class="Button_add__plus"></span>
+                    </button>
+                </div>
+
+                <div class="search">
+                    <img src="/images/search.png" class="search__icon">
+                    <input type="text" class="search__input" placeholder="Customer or ID">
+                </div>
 
 
+                <table>
+                    <tr>
+                        <th>CUSTOMER</th>
+                        <th>COM ID</th>
+                        <th>LEG ID</th>
+                        <th>SIZE</th>
+                        <th>STATUS</th>
+                    </tr>
+                </table>
 
+
+            </div>
+        </section>
+    </div>
+
+    <script src="index.js"></script>
 </body>
+
 </html>
