@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <title>Customer Overview</title>
 </head>
 
@@ -44,7 +45,7 @@
                     <li class="side-nav__item">
                         <a href="#" class="side-nav__link">
                             <img src="/images/notification.png" class="side-nav__icon">
-                            <span>Notifiaction Center</span>
+                            <span>notification Center</span>
                         </a>
                     </li>
                 </ul>
@@ -52,35 +53,38 @@
         </nav>
 
         <section class="right_content">
-            <div>
-                <div class="right_content__add">
-                    <h1 class="right_content__heading">Customer Overview</h1>
-                    <button class="Button_add"><span class="Button_add__plus"></span>
-                    </button>
-                </div>
 
+            <h1 class="right_content__heading">Customer Overview</h1>
+
+            <div class="search__box">
                 <div class="search">
                     <img src="/images/search.png" class="search__icon">
                     <input type="text" class="search__input" placeholder="Customer or ID">
                 </div>
-
-
-                <table>
-                    <tr>
-                        <th>CUSTOMER</th>
-                        <th>COM ID</th>
-                        <th>LEG ID</th>
-                        <th>SIZE</th>
-                        <th>STATUS</th>
-                    </tr>
-                </table>
-
-
+                <button class="Button_add"><img src="/images/plus.png" class="Button_add__plus">
+                </button>
             </div>
+
+            <table class="tb_header">
+                <tr>
+                    <td class="tb_header__customer">CUSTOMER</td>
+
+                    <td class="tb_header__com_id">COM ID</td>
+                    <td class="tb_header__leg_id">LEG ID</td>
+                    <td class="tb_header__size">SIZE
+                        <img class="tb_header__size__arrow" src="/images/arrow-body-down.png" alt="">
+                    </td>
+                    <td class="tb_header__status">STATUS</td>
+                </tr>
+            </table>
+
+            <div id="app"></div>
+
         </section>
     </div>
 
-    <script src="index.js"></script>
+    <script src="script.js"></script>
+
 </body>
 
 </html>

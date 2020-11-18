@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Specsavers Denmark",
+    "logo": "/images/Specsavers_denmark@2X.png",
+    "type": "Default",
+    "com_id": 13950,
+    "leg_id": 4567,
+    "size": 1.2,
+    "size_unit": "TB",
+    "status": "active"
+  },
+  {
+    "name": "Yunar",
+    "logo": "/images/Yunar@2X.png",
+    "type": "Default",
+    "com_id": 13955,
+    "leg_id": 3254,
+    "size": 225,
+    "size_unit": "GB",
+    "status": "active"
+  },
+  {
+    "name": "Coca-Cola",
+    "logo": "/images/Coca_cola@2X.png",
+    "type": "Default",
+    "com_id": 13250,
+    "leg_id": 5487,
+    "size": 119,
+    "size_unit": "GB",
+    "status": "active"
+  },
+  {
+    "name": "Helly Hansen",
+    "logo": "/images/Helly_Hansen@2X.png",
+    "type": "Default",
+    "com_id": 13987,
+    "leg_id": 1236,
+    "size": 87,
+    "size_unit": "GB",
+    "status": "active"
+  },
+  {
+    "name": "Brand Enterprise",
+    "logo": "/images/Brand_Enterprise@2X.png",
+    "type": "Default",
+    "com_id": 13654,
+    "leg_id": 3154,
+    "size": 68,
+    "size_unit": "GB",
+    "status": "active"
+  },
+  {
+    "name": "Mercedes-Benz Europe",
+    "logo": "/images/mb@2X.png",
+    "type": "Default",
+    "com_id": 12987,
+    "leg_id": 3187,
+    "size": 40,
+    "size_unit": "GB",
+    "status": "active"
+  },
+  {
+    "name": "MBW Nordic",
+    "logo": "/images/BMW@2X.png",
+    "type": "Default",
+    "com_id": 182,
+    "leg_id": 48,
+    "size": 6,
+    "size_unit": "GB",
+    "status": "active"
+  }
+]

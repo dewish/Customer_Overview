@@ -1,9 +1,15 @@
+/////////////////////////////////////////////
+// TOP BAR - site admin
+
 .topbar {
     display: flex;
+    position: relative;
     background-color: $--color-white;
-    height: 44px;
+    height: 4.4rem;
     align-items: center;
-    
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    z-index: 100;
+
     &__paragraph {
         color: $--color-font;
         font-size: 1.3rem;

@@ -1,8 +1,12 @@
+/////////////////////////////////////////////
+// SIDEBAR
+
 .sidebar {
     display: flex;
     flex-direction: column;
-    width: 320px;
-    height: 869px;
+    position: relative;
+    width: 20%;
+    height: 86.9rem;
     background-color: $--color-white;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
 
@@ -28,26 +32,20 @@
 
     &__item {
         display: flex;
-        width: 320px;
-        height: 40px;
+        height: 4rem;
         margin-bottom: 0.25rem;
-        padding-left: 13px;
-
-        // &:not(:last-child) {
-        //     margin-bottom: 0.5rem;
-        // }
+        padding-left: 1.3rem;
+        white-space: nowrap;
     }
 
     &__item:hover {
-        width: 300px;
-        height: 40px;
+        width: 98%;
         border-radius: 8px;
         background-color: #f1f4f8;
     }
 
     &__item--active {
-        width: 300px;
-        height: 40px;
+        width: 98%;
         border-radius: 8px;
         background-color: #f1f4f8;
     }
