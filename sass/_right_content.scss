@@ -85,6 +85,7 @@
 td {
     font-size: 1.3rem;
     padding: 0.5rem;
+   
 }
 
 .row {
@@ -101,7 +102,7 @@ td {
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
     }
-}
+ }
 
 .logo {
     object-fit: contain;
@@ -172,6 +173,7 @@ td {
     border: solid 1px $--color-btn_border;
     border-bottom: 0;
     background-color: #f1f4f8;
+    white-space: nowrap;
 
     & td {
         font-size: 10px;
@@ -187,22 +189,20 @@ td {
 
     &__com_id {
         width: 12.5%;
-        white-space: nowrap;
     }
-
-    &__size {
+    &__leg_id {
         width: 12%;
-        white-space: nowrap;
-
-        &__arrow {
-            width: 9px;
-            height: 9px;
-            filter: invert(41%) sepia(71%) saturate(2070%) hue-rotate(206deg) brightness(98%) contrast(107%);
-            margin-left: 0.8rem;
-        }
     }
-    &__status {
-        width: 9rem;
+
+    &__arrow {
+        width: 9px;
+        height: 9px;
+        filter: invert(41%) sepia(71%) saturate(2070%) hue-rotate(206deg) brightness(98%) contrast(107%);
+        margin-left: 0.8rem;
+    }
+
+    &__active {
+        padding-right: 3.5rem;
     }
 }
 
@@ -211,24 +211,21 @@ td {
 
 @media only screen and (max-width: 1500px) {
     .tb_header {
-        &__customer {
-            width: 55.8%;
-        }
         &__com_id {
             width: 11.8%;
+        }
+        &__leg_id {
+            width: 12%;
         }
     }
 }
 
 @media only screen and (max-width: 1350px) {
     .tb_header {
-        &__customer {
-            width: 56%;
-        }
         &__com_id {
-            width: 11.4%;
+            width: 11.2%;
         }
-        &__size {
+        &__leg_id {
             width: 11%;
         }
     }
